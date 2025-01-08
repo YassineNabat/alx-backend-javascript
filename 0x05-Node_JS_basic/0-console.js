@@ -1,5 +1,10 @@
-function displayMessage(data) {
-    console.log(data);
-  }
-  
-  module.exports = displayMessage;
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ * <https://github.com/YassineNabat>
+ */
+const displayMessage = (msg) => {
+  console.log(msg);
+};
+
+module.exports = displayMessage;
